@@ -16,7 +16,8 @@ def adulto(request, edad):
 def Home(request):
     return render(request, 'html/index.html', {})
 
-def dinamico(request, name):
-    categories = ['codigo', 'marketing', 'diseño']
+def dinamico(request):
+    categories = ['codigo', 'marketing', 'diseño', 'negocios', 'river', 'arte', 'Javier El crazy Milei']
+    name = 'Lucas'
     context = {'name' : name, 'categories' : categories }
     return render(request, 'html/dinamico.html', context)
