@@ -17,10 +17,6 @@ class comentarios(models.Model):
     def __str__(self):
         return self.name
     
-class author(models.Model):
-    
-    def __str__(self):
-        return 
     
 '''
 de esta manera vamos a crear todos los modelos para la inscripción de datos y comparaciones es agrupar inyeccion de sql para crear tablas y columnas y la POO de python para el uso de las mismas.
