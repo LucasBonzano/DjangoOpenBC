@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:DjangoOpenBC}/PruebaTecnica/db.sqlite3",
+            "name": "PruebaTécnica"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

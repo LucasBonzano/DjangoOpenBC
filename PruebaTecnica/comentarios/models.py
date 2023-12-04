@@ -8,6 +8,9 @@ class comentarios(models.Model):
     name=models.CharField(max_length=255, null=False,)
     score = models.IntegerField( default=3)
     comment = models.TextField(max_length=1000, null=True)
+    date = models.DateField(null=True)
+    signature = models.CharField(max_length=50, default="Firma")
+    
     
     '''
     para cada tipo de columna se deben modelar los datos con anterioridad o darle expecificaciones para que vayan a lo especifico y se le de buenos valores
