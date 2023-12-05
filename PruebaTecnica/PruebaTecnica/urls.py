@@ -1,6 +1,6 @@
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from . import vista
 
 urlpatterns = [
@@ -8,4 +8,5 @@ urlpatterns = [
     path('', vista.index , name = "index"),
     path('contacto/', vista.contacto , name = "contacto"),
     path('sobremi/', vista.sobremi , name = "sobremi"),
+    path('comentarios/', include('comentarios.urls'))
 ]

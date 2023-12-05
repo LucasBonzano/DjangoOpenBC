@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class comentarios(models.Model):
+class comentario(models.Model):
     
     # name=models. para declarar como quiero que se cree el valor en la tabla y tambien para dar los valores que quiero ingresar 
     name=models.CharField(max_length=255, null=False,)
