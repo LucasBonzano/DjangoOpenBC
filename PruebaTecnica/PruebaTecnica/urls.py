@@ -8,5 +8,6 @@ urlpatterns = [
     path('', vista.index , name = "index"),
     path('contacto/', vista.contacto , name = "contacto"),
     path('sobremi/', vista.sobremi , name = "sobremi"),
+    path('carga/', vista.carga , name = "carga"),
     path('comentarios/', include('comentarios.urls'))
 ]
